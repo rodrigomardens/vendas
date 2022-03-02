@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6a9efb1-59af-4a81-8801-b1a09929fdd3" name="Default Changelist" comment="" />
+    <list default="true" id="c6a9efb1-59af-4a81-8801-b1a09929fdd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/AnimalConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/Cachorro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/Development.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/Gato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/MinhaConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/VendasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/model/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/repository/ClientesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/service/ClientesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-development.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-production.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +28,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -24,6 +44,9 @@
     </option>
   </component>
   <component name="ProjectId" id="25nNVDKybsnCrxiDRizALYPh6ht" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,7 +54,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -75,33 +102,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1646161967604">
+    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser" timestamp="1646246679949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646161967604" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1646164495077">
+    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646246679949" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1646247825903">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646164495077" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1646164495077">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646247825903" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1646247825903">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646164495077" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1646164495077">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646247825903" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1646247825903">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646164495077" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1646164495077">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646247825903" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1646247825903">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646164495077" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646247825903" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1646243086780">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646243086780" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1646158923549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646158923549" />
-    <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1646162000445">
+    <state x="413" y="119" key="extract.method.dialog" timestamp="1646247165931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="0" width="607" height="728" key="find.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646162000445" />
+    <state x="413" y="119" key="extract.method.dialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646247165931" />
+    <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1646247815047">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="0" width="607" height="728" key="find.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646247815047" />
   </component>
 </project>
