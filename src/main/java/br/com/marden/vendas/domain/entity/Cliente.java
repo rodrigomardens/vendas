@@ -1,6 +1,7 @@
 package br.com.marden.vendas.domain.entity;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 @Table(name = "cliente")
@@ -11,6 +12,9 @@ public class Cliente {
     private Integer id;
     @Column(length = 100)
     private String nome;
+
+    @OneToMany(mappedBy = "cliente")
+    private Set<Pedido> pedidos;
 
     public Cliente() {
     }
@@ -38,6 +42,14 @@ public class Cliente {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public Set<Pedido> getPedidos() {
+        return pedidos;
+    }
+
+    public void setPedidos(Set<Pedido> pedidos) {
+        this.pedidos = pedidos;
     }
 
     @Override

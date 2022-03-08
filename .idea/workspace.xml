@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a9efb1-59af-4a81-8801-b1a09929fdd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/repository/Clientes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/VendasApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/repositorio/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/repositorio/Clientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/repositorio/Clientes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/VendasApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/ItemPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/ItemPedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/repositorio/Clientes.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -91,30 +102,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser" timestamp="1646246679949">
+    <state x="275" y="22" key="#Auto_Import" timestamp="1646683350140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646246679949" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1646678546189">
+    <state x="275" y="22" key="#Auto_Import/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646683350140" />
+    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser" timestamp="1646682741707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646678546189" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1646678546189">
+    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646682741707" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1646683728921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646678546189" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1646678546189">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646683728921" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1646683728921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646678546189" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1646678546189">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646683728921" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1646683728921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646678546189" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1646243086780">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646683728921" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1646683728921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646243086780" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646683728921" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1646680721196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646680721196" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1646158923549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -123,9 +138,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="extract.method.dialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646247165931" />
-    <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1646247815047">
+    <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1646760794565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="0" width="607" height="728" key="find.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646247815047" />
+    <state x="379" y="0" width="607" height="728" key="find.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646760794565" />
   </component>
 </project>
