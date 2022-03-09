@@ -1,5 +1,6 @@
 package br.com.marden.vendas.rest.controller;
 
+import br.com.marden.vendas.exception.PedidoNaoEncontradoExpection;
 import br.com.marden.vendas.exception.RegraNegocioExpection;
 import br.com.marden.vendas.rest.ApiErros;
 import org.springframework.http.HttpStatus;
@@ -15,6 +16,12 @@ public class ApplicationControllerAdvice {
     public ApiErros handleRegraNegocioExpection(RegraNegocioExpection ex) {
         String mensagemErro = ex.getMessage();
         return new ApiErros(mensagemErro);
+    }
+
+    @ExceptionHandler(PedidoNaoEncontradoExpection.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public ApiErros handlePedidoNotFoundException(PedidoNaoEncontradoExpection ex) {
+        return new ApiErros(ex.getMessage());
     }
 
 }

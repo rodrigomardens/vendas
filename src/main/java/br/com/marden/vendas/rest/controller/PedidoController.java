@@ -2,6 +2,8 @@ package br.com.marden.vendas.rest.controller;
 
 import br.com.marden.vendas.domain.entity.ItemPedido;
 import br.com.marden.vendas.domain.entity.Pedido;
+import br.com.marden.vendas.domain.enums.StatusPedido;
+import br.com.marden.vendas.rest.dto.AtualizacaoStatusPedidoDTO;
 import br.com.marden.vendas.rest.dto.InformacaoItemPedidoDTO;
 import br.com.marden.vendas.rest.dto.InformacoesPedidoDTO;
 import br.com.marden.vendas.rest.dto.PedidoDTO;
@@ -38,6 +40,12 @@ public class PedidoController {
         return service.obterPedidoCompleto(id)
                 .map(p -> converter(p))
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Pedido não encontrado."));
+    }
+
+    @PatchMapping("{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void updateStatus(@PathVariable Integer id, @RequestBody AtualizacaoStatusPedidoDTO dto) {
+        service.atualizaStatus(id, StatusPedido.valueOf(dto.getNovoStatus()));
     }
 
     private InformacoesPedidoDTO converter(Pedido pedido) {

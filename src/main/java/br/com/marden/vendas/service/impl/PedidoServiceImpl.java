@@ -9,6 +9,7 @@ import br.com.marden.vendas.domain.repository.Clientes;
 import br.com.marden.vendas.domain.repository.ItemsPedido;
 import br.com.marden.vendas.domain.repository.Pedidos;
 import br.com.marden.vendas.domain.repository.Produtos;
+import br.com.marden.vendas.exception.PedidoNaoEncontradoExpection;
 import br.com.marden.vendas.exception.RegraNegocioExpection;
 import br.com.marden.vendas.rest.dto.ItemPedidoDTO;
 import br.com.marden.vendas.rest.dto.PedidoDTO;
@@ -73,5 +74,15 @@ public class PedidoServiceImpl implements PedidoService {
     @Override
     public Optional<Pedido> obterPedidoCompleto(Integer id) {
         return repository.findByIdFetchItens(id);
+    }
+
+    @Override
+    @Transactional
+    public void atualizaStatus(Integer id, StatusPedido statusPedido) {
+        repository.findById(id)
+                .map(pedido -> {
+                    pedido.setStatus(statusPedido);
+                    return repository.save(pedido);
+                }).orElseThrow(() -> new PedidoNaoEncontradoExpection());
     }
 }

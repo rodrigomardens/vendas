@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c6a9efb1-59af-4a81-8801-b1a09929fdd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/repository/Pedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/repository/Pedidos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/rest/controller/ApplicationControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/rest/controller/ApplicationControllerAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/rest/controller/PedidoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/service/PedidoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/service/impl/PedidoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/service/impl/PedidoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/repository/Pedidos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/repository/Pedidos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/rest/controller/ApplicationControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/rest/controller/ApplicationControllerAdvice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/rest/controller/PedidoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/rest/controller/PedidoController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/service/PedidoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/service/PedidoService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/service/impl/PedidoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/service/impl/PedidoServiceImpl.class" afterDir="false" />
@@ -23,8 +22,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.marden.vendas.exception" />
       <recent name="br.com.marden.vendas.domain.enums" />
       <recent name="br.com.marden.vendas.rest.dto" />
     </key>
@@ -106,26 +106,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Auto_Import/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646853101679" />
-    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser" timestamp="1646854349035">
+    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser" timestamp="1646857054760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646854349035" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1646856591122">
+    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646857054760" />
+    <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1646857028188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646856591122" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1646856591121">
+    <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646857028188" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1646857748278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646856591121" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1646856591121">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646857748278" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1646857748278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646856591121" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1646856591122">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646857748278" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1646857748278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646856591122" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646857748278" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1646857748278">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646857748278" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1646849906036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
