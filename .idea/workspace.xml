@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a9efb1-59af-4a81-8801-b1a09929fdd3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/VendasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/VendasApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/domain/entity/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/rest/controller/PedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/marden/vendas/service/PedidoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/ItemPedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/ItemPedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/marden/vendas/domain/entity/Produto.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +56,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/br/com/marden/vendas" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -92,34 +100,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Auto_Import" timestamp="1646683350140">
+    <state x="275" y="22" key="#Auto_Import" timestamp="1646853101679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#Auto_Import/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646683350140" />
-    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser" timestamp="1646770290059">
+    <state x="275" y="22" key="#Auto_Import/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646853101679" />
+    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser" timestamp="1646851491695">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646770290059" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1646770956346">
+    <state x="488" y="16" width="460" height="712" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646851491695" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1646853313255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646770956346" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1646770956346">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646853313255" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1646853313254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646770956346" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1646770956346">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646853313254" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1646853313253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646770956346" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1646770956346">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646853313253" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1646853313254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646770956346" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1646680721196">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646853313254" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1646849906036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646680721196" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1646849906036" />
     <state x="499" y="142" key="chooseDestDirectoryDialog" timestamp="1646848983726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
