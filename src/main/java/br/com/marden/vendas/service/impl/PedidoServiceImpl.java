@@ -4,6 +4,7 @@ import br.com.marden.vendas.domain.entity.Cliente;
 import br.com.marden.vendas.domain.entity.ItemPedido;
 import br.com.marden.vendas.domain.entity.Pedido;
 import br.com.marden.vendas.domain.entity.Produto;
+import br.com.marden.vendas.domain.enums.StatusPedido;
 import br.com.marden.vendas.domain.repository.Clientes;
 import br.com.marden.vendas.domain.repository.ItemsPedido;
 import br.com.marden.vendas.domain.repository.Pedidos;
@@ -18,6 +19,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -40,6 +42,7 @@ public class PedidoServiceImpl implements PedidoService {
         pedido.setTotal(dto.getTotal());
         pedido.setData(LocalDate.now());
         pedido.setCliente(cliente);
+        pedido.setStatus(StatusPedido.REALIZADO);
 
         List<ItemPedido> itemsPedido = converterItems(pedido, dto.getItems());
         repository.save(pedido);
@@ -65,5 +68,10 @@ public class PedidoServiceImpl implements PedidoService {
             itemPedido.setProduto(produto);
             return itemPedido;
         }).collect(Collectors.toList());
+    }
+
+    @Override
+    public Optional<Pedido> obterPedidoCompleto(Integer id) {
+        return repository.findByIdFetchItens(id);
     }
 }
