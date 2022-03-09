@@ -1,5 +1,7 @@
 package br.com.marden.vendas.domain.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.Set;
 
@@ -12,7 +14,10 @@ public class Cliente {
     private Integer id;
     @Column(length = 100)
     private String nome;
+    @Column(length = 11)
+    private String cpf;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "cliente")
     private Set<Pedido> pedidos;
 
@@ -44,6 +49,14 @@ public class Cliente {
         this.nome = nome;
     }
 
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
     public Set<Pedido> getPedidos() {
         return pedidos;
     }
@@ -57,6 +70,7 @@ public class Cliente {
         return "Cliente{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
                 '}';
     }
 }
